@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        padding: 0 0;
+        height: 200px;
+
+    }
+
+    .logo {
+        margin-top: 30px;
+        font-size: 1.7em;
+    }
+
+    .navigation a {
+        padding-left: 20px;
+        font-size: 1em;
+    }
+
+    .navigation .btnLogin-popup {
+        width: 90px;
+        height: 30px;
+        margin-top: 30px;
+     font-size: 0.8em;
+     }
+
+}
