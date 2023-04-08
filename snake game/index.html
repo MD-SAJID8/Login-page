@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game home Page</title>
+    <style>
+      @media only screen and (max-width: 400px) {
+        .pbody{
+            flex-direction: column;
+
+        }
+        .pbody img{
+        
+        width: 200px;
+        height: 200px; 
+    }
+}
+    /* styling for play button */
+    .pbody img{
+        
+            border-radius: 40px; 
+            transform: scale(0.8); 
+        }
+        .btn button{
+            background-color: rgb(44, 44, 190);
+            color: white;
+            width: 200px;
+            height: 70px;
+            border: none;
+            font-weight: bold;
+            border-radius: 10px;
+            font-size: 40px;
+            cursor: pointer;
+        }
+       .pbody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        height: 100vh;
+        width: 100vw;
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="pbody">
+        <img src="img/body.png" alt="">
+        <div class="btn">
+            <button onclick="Home()">Play</button>
+        </div>
+            
+    </div>
+    <script>
+        function Home(){
+            window.location= "index2.html";
+        }
+    </script>
+
+</body>
+</html>
