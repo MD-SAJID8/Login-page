@@ -1,0 +1,255 @@
+/* CSS reset */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Navigation bar */
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: black;
+
+}
+
+/* Logo and image */
+
+#logo img {
+  margin: 20px;
+  height: 4rem;
+  width: 4rem;
+}
+
+/* List styling  */
+.navlist {
+  display: flex;
+}
+
+.navlist li {
+  list-style: none;
+
+
+}
+
+.navlist li a {
+  color: white;
+  padding: 5px 20px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.navlist li a:hover {
+  color: rgb(14, 13, 13);
+  background-color: white;
+}
+
+.navlist input {
+  margin-left: 550px;
+  width: 600px;
+  height: 23px;
+  border: none;
+}
+
+.btntop {
+  margin-left: 10px;
+  background-color: rgb(206, 69, 69);
+  color: white;
+  border-radius: 2px;
+  padding: 3px;
+  width: 5rem;
+  transition: all 0.5;
+  border: none;
+}
+
+.btntop:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#service-option {
+  margin: 0px 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#service-option:hover {
+  background-color: white;
+  color: black;
+  padding: 2px 2px;
+  border-radius: 5px;
+
+
+}
+
+/* section home */
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 300px;
+  height: 300px;
+  color: white;
+  text-align: center;
+
+}
+
+#home .h-first {
+  background-color: rgb(206, 69, 69);
+  border-radius: 3px;
+  padding: 10px;
+
+}
+
+
+#home p {
+  font-family: 'Trebuchet MS';
+  background-color: rgb(184, 217, 255);
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#home p:hover {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.btn {
+  padding: 10px;
+  margin-top: 20px;
+  transition: all 0.2s;
+  color: white;
+  background-color: rgb(206, 69, 69);
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  /* width:200px; */
+  cursor: pointer;
+  transform: scale(0.9);
+
+}
+
+/* home2 */
+#home2 {
+  display: flex;
+  margin-top: 20px;
+  height: 400px;
+  position: relative;
+  background-color: black;
+
+}
+
+#home2 img {
+  height: 200px;
+  width: 200px;
+  transition: all 0.2s;
+}
+
+#home2 img:hover {
+  transform: scale(0.8);
+  /* rotate: 360deg; */
+
+}
+
+#home2 .box {
+  padding: 60px;
+}
+
+
+.h-second {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+}
+
+/* home3 */
+
+#home3 .h-3 {
+  margin-top: 80px;
+
+}
+
+#clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(160, 193, 255);
+}
+
+#clients img {
+  height: 7rem;
+  transition: all 0.3s;
+}
+
+#clients img:hover {
+  transform: scale(1.4);
+}
+
+.client-item {
+  padding: 30px;
+}
+
+.h-3 {
+  text-align: center;
+  font-family: 'Trebuchet MS';
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+#contactbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: rgb(104, 93, 170);
+
+}
+
+
+
+#contactbox input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: none;
+
+}
+
+#contactbox label {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#contactbox button {
+  width: 300px;
+  height: 30px;
+  cursor: pointer;
+  background-color: chocolate;
+  border: none;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
